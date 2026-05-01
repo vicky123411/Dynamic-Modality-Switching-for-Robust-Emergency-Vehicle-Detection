@@ -1,0 +1,3 @@
+=== TRAINING RUN ===
+Vision epochs=80 imgsz=512 batch=4 model=yolov8n freeze_backbone=False
+Audio epochs=30 batch=16

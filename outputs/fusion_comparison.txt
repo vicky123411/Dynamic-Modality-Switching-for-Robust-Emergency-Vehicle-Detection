@@ -1,0 +1,5 @@
+=== FUSION COMPARISON ===
+Old F1: 0.676
+New F1: 1.000
+Old Recall: 0.511
+New Recall: 1.000

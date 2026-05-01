@@ -1,0 +1,15 @@
+=== FUSION TUNING RESULTS ===
+th=0.30 aw=1.00 vw=1.00 temp=1.00 F1=1.000 Recall=1.000
+th=0.30 aw=0.90 vw=1.10 temp=1.00 F1=1.000 Recall=1.000
+th=0.30 aw=1.10 vw=0.90 temp=1.00 F1=1.000 Recall=1.000
+th=0.35 aw=1.00 vw=1.00 temp=1.00 F1=1.000 Recall=1.000
+th=0.35 aw=0.90 vw=1.10 temp=1.00 F1=1.000 Recall=1.000
+th=0.35 aw=1.10 vw=0.90 temp=1.00 F1=1.000 Recall=1.000
+th=0.40 aw=1.00 vw=1.00 temp=1.00 F1=1.000 Recall=1.000
+th=0.40 aw=0.90 vw=1.10 temp=1.00 F1=1.000 Recall=1.000
+th=0.40 aw=1.10 vw=0.90 temp=1.00 F1=1.000 Recall=1.000
+th=0.45 aw=1.00 vw=1.00 temp=1.00 F1=1.000 Recall=1.000
+th=0.45 aw=0.90 vw=1.10 temp=1.00 F1=1.000 Recall=1.000
+th=0.45 aw=1.10 vw=0.90 temp=1.00 F1=1.000 Recall=1.000
+
+Best -> th=0.30 aw=1.00 vw=1.00 temp=1.00 F1=1.000
