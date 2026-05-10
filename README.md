@@ -1,6 +1,6 @@
-# 🚑 Dynamic Modality Switching for Robust Emergency Vehicle Detection
+#  Dynamic Modality Switching for Robust Emergency Vehicle Detection
 
-## 📌 Overview
+## Overview
 
 This project detects emergency vehicles using a **multimodal approach**:
 
@@ -12,7 +12,7 @@ It dynamically switches between audio and vision signals to improve detection in
 
 ---
 
-## ⚙️ Features
+##  Features
 
 * YOLOv8-based object detection
 * Audio classification using spectrogram features
@@ -22,7 +22,7 @@ It dynamically switches between audio and vision signals to improve detection in
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 ├── data/                  # Dataset
@@ -38,7 +38,7 @@ It dynamically switches between audio and vision signals to improve detection in
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
@@ -49,21 +49,21 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+##  Usage
 
-### 🔹 Train the model
+### * Train the model
 
 ```bash
 python main.py --train
 ```
 
-### 🔹 Quick test (faster)
+### * Quick test (faster)
 
 ```bash
 python main.py --train --epochs-vision 5 --epochs-audio 2
 ```
 
-### 🔹 Evaluate model
+### * Evaluate model
 
 ```bash
 python main.py --evaluate
@@ -71,7 +71,7 @@ python main.py --evaluate
 
 ---
 
-## 🧠 Technologies Used
+## * Technologies Used
 
 * Python
 * PyTorch
@@ -82,7 +82,7 @@ python main.py --evaluate
 
 ---
 
-## 📊 Output
+## * Output
 
 * Trained models saved in `runs/`
 * Performance metrics in `outputs/`
@@ -90,14 +90,14 @@ python main.py --evaluate
 
 ---
 
-## ⚠️ Notes
+## * Notes
 
 * Runs on CPU (slower on Mac M1)
 * For faster training, use GPU (CUDA supported systems)
 
 ---
 
-## 📈 Future Improvements
+## * Future Improvements
 
 * Real-time detection system
 * Mobile deployment
