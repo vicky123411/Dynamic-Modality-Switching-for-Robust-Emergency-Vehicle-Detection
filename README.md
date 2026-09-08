@@ -107,5 +107,5 @@ python main.py --evaluate
 
 ## 👨‍💻 Author
 
-Vikash Yadav
+Vikash
 
