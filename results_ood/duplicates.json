@@ -1,0 +1,12 @@
+{
+ "oi_images_near_dup": 11,
+ "vgg_frames_near_dup": 7,
+ "vgg_audio_near_dup": 556,
+ "image_hamming_threshold": 4,
+ "audio_cosine_threshold": 0.98,
+ "vgg_audio_max_sim_quantiles": [
+  0.9307236671447754,
+  0.9886424338817597,
+  0.9959320425987244
+ ]
+}

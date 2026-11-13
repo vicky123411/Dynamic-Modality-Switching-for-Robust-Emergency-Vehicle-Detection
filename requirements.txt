@@ -1,0 +1,12 @@
+# Versions used for the paper's experiments
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+torch==2.15.0
+torchvision==0.29.2
+librosa==1.0.0
+soundfile==0.14.0
+opencv-python-headless==5.0.0
+pyarrow==26.0.1
+matplotlib==3.11.2

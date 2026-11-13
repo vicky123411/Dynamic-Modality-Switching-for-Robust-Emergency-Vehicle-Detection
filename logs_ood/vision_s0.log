@@ -1,0 +1,8 @@
+[19:16:54] vision_s0 ep 1 loss 0.4049 val AP 0.9327 (1089s)
+[19:20:54] vision_s0 ep 2 loss 0.2594 val AP 0.9344 (240s)
+[19:22:43] vision_s0 ep 3 loss 0.2023 val AP 0.9498 (109s)
+[19:24:31] vision_s0 ep 4 loss 0.1658 val AP 0.9466 (108s)
+[19:26:21] vision_s0 ep 5 loss 0.1276 val AP 0.9380 (110s)
+[19:28:12] vision_s0 ep 6 loss 0.0985 val AP 0.9495 (111s)
+[19:30:03] vision_s0 ep 7 loss 0.0784 val AP 0.9484 (111s)
+[19:30:03] vision_s0 early stop at epoch 7 (best 3)

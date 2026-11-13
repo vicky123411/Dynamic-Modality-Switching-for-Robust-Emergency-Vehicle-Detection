@@ -1,0 +1,14 @@
+# downloaded data and working folders (not redistributed)
+data/
+work/
+__pycache__/
+*.pyc
+# LaTeX build files
+paper/main_v4.tex
+paper/numbers_v4.json
+*.aux
+*.log
+!logs/*.log
+!logs_ood/*.log
+*.out
+*.pdf

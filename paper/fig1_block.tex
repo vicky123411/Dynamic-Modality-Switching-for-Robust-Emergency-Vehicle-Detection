@@ -1,0 +1,46 @@
+\begin{figure}[t]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  font=\small,
+  >={Triangle[length=2mm,width=1.8mm]},
+  box/.style={draw=slate,line width=0.8pt,rounded corners=3pt,align=center,
+    inner sep=3pt,minimum height=9mm,text width=26mm},
+  io/.style  ={box,fill=gray!15},
+  net/.style ={box,fill=cyan!22!blue!8,text width=29mm},
+  cal/.style ={box,fill=teal!28!white},
+  feat/.style={box,fill=blue!14!white,text width=30mm},
+  gt/.style  ={box,fill=blue!28!teal!18!white,text width=28mm},
+  pl/.style  ={box,fill=blue!45!black!18!white,text width=34mm},
+  dc/.style  ={box,fill=slate,text=white,text width=24mm},
+  lab/.style ={font=\footnotesize,inner sep=1.5pt}
+]
+\colorlet{slate}{blue!55!black}
+\node[io]   (xv)  at (0, 1.5)  {Video frame $x_v$};
+\node[net]  (fv)  at (3.4, 1.5) {Vision branch\\MobileNetV3-Small};
+\node[cal]  (cv)  at (6.8, 1.5) {Calibration $T_v$};
+\node[io]   (xa)  at (0,-1.5)  {Audio window $x_a$};
+\node[net]  (fa)  at (3.4,-1.5) {Audio branch\\log-Mel CNN};
+\node[cal]  (ca)  at (6.8,-1.5) {Calibration $T_a$};
+\node[feat] (phi) at (6.8, 0)   {Context descriptor\\$\phi(x)\in\mathbb{R}^{17}$};
+\node[gt]   (g)   at (10.4, 0)  {Reliability gate\\$w_v,\ w_a=1-w_v$};
+\node[pl]   (po)  at (14.4, 0)  {Log-odds pooling\\$\sigma(w_v\operatorname{logit}\hat p_v+w_a\operatorname{logit}\hat p_a+b)$};
+\node[dc]   (de)  at (18.2, 0)  {EV present\\if $s(x)\ge\tau$};
+\draw[->,slate] (xv) -- (fv);
+\draw[->,slate] (fv) -- node[lab,above]{$p_v$} (cv);
+\draw[->,slate] (xa) -- (fa);
+\draw[->,slate] (fa) -- node[lab,above]{$p_a$} (ca);
+\draw[->,slate] (xv.south) |- (phi.west);
+\draw[->,slate] (xa.north) |- (phi.west);
+\draw[->,slate!55,dashed] (cv.south) -- (phi.north);
+\draw[->,slate!55,dashed] (ca.north) -- (phi.south);
+\draw[->,slate,line width=1pt] (phi) -- (g);
+\draw[->,slate,line width=1pt] (g) -- (po);
+\draw[->,slate] (cv.east) -| node[lab,above,pos=0.25]{$\hat p_v$} (po.north);
+\draw[->,slate] (ca.east) -| node[lab,below,pos=0.25]{$\hat p_a$} (po.south);
+\draw[->,slate,line width=1pt] (po) -- (de);
+\end{tikzpicture}}
+\caption{Pipeline: temperature-scaled confidences are pooled in log-odds space
+with a per-sample weight from the reliability gate.}
+\label{fig:architecture}
+\end{figure}

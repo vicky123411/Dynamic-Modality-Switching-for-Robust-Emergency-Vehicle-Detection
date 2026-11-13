@@ -1,0 +1,58 @@
+[13:21:48] Fitted temperature T=4.107 (val NLL 0.5534)
+[13:21:48] Fitted temperature T=3.429 (val NLL 0.3956)
+[13:21:49] Gate trained on 20000 samples (6563 informative)
+[13:21:50] Gate trained on 20000 samples (6563 informative)
+[13:21:50] Static baseline: best w_v = 0.50 (val AP 0.9717)
+[13:21:50] Selected threshold 0.420 on validation (f1 = 0.7303)
+[13:21:50] Selected threshold 0.620 on validation (f1 = 0.8213)
+[13:21:50] Selected threshold 0.410 on validation (f1 = 0.9141)
+[13:21:50] Selected threshold 0.610 on validation (f1 = 0.9246)
+[13:21:50] Selected threshold 0.695 on validation (f1 = 0.9224)
+[13:21:50] Selected threshold 0.410 on validation (f1 = 0.9141)
+[13:21:50] Selected threshold 0.625 on validation (f1 = 0.9166)
+[13:21:50] Selected threshold 0.345 on validation (f1 = 0.8743)
+[13:21:50] Selected threshold 0.485 on validation (f1 = 0.9257)
+[13:21:50] Selected threshold 0.465 on validation (f1 = 0.9270)
+[13:21:50] Selected threshold 0.415 on validation (f1 = 0.9789)
+[13:21:50] sweep clean|None|0
+[13:23:14] sweep visual|low_light|1
+[13:24:37] sweep visual|low_light|2
+[13:25:59] sweep visual|low_light|3
+[13:27:17] sweep visual|low_light|4
+[13:28:38] sweep visual|low_light|5
+[13:29:37] sweep visual|fog|1
+[13:30:37] sweep visual|fog|2
+[13:31:35] sweep visual|fog|3
+[13:32:33] sweep visual|fog|4
+[13:33:35] sweep visual|fog|5
+[13:34:29] sweep visual|rain|1
+[13:35:27] sweep visual|rain|2
+[13:36:26] sweep visual|rain|3
+[13:37:27] sweep visual|rain|4
+[13:38:34] sweep visual|rain|5
+[13:39:24] sweep visual|motion_blur|1
+[13:40:22] sweep visual|motion_blur|2
+[13:41:26] sweep visual|motion_blur|3
+[13:42:29] sweep visual|motion_blur|4
+[13:43:42] sweep visual|motion_blur|5
+[13:44:34] sweep visual|glare|1
+[13:45:35] sweep visual|glare|2
+[13:46:35] sweep visual|glare|3
+[13:47:33] sweep visual|glare|4
+[13:48:29] sweep visual|glare|5
+[13:48:51] sweep acoustic|traffic_noise|1
+[13:49:07] sweep acoustic|traffic_noise|2
+[13:49:23] sweep acoustic|traffic_noise|3
+[13:49:38] sweep acoustic|traffic_noise|4
+[13:49:53] sweep acoustic|traffic_noise|5
+[13:50:07] sweep acoustic|wind_noise|1
+[13:50:23] sweep acoustic|wind_noise|2
+[13:50:39] sweep acoustic|wind_noise|3
+[13:50:55] sweep acoustic|wind_noise|4
+[13:51:11] sweep acoustic|wind_noise|5
+[13:51:25] sweep acoustic|clipping|1
+[13:51:38] sweep acoustic|clipping|2
+[13:51:52] sweep acoustic|clipping|3
+[13:52:06] sweep acoustic|clipping|4
+[13:52:20] sweep acoustic|clipping|5
+[13:52:20] sweep done
